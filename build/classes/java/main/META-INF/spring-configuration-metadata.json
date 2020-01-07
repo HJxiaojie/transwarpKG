@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "io.transwarp.knowledge_graph.config.ApplicationProperties",
+      "name": "application",
+      "type": "io.transwarp.knowledge_graph.config.ApplicationProperties"
+    },
+    {
+      "sourceType": "io.transwarp.knowledge_graph.config.CloudDatabaseConfiguration",
+      "name": "spring.datasource.hikari",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

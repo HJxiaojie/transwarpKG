@@ -1,0 +1,27 @@
+<div style="margin:auto;background:#fff; width:100%; display:flex; " >
+    <div style="position:relative; background:rgba(53,61,71,1); min-height:calc(100vh - 59px); width:178px; float:left; padding-left:0; transition:.2s" >
+        <!--<ul style="padding:0; ">-->
+            <!--<li   styele="padding-left:60px;  text-align:center;" routerLinkActive="active" [routerLink]="['/first/item-a']"><i  class="iconfont iconedit" style="margin-right:14px"></i><span *ngIf="isDestroyed">Item-a</span></li>-->
+            <!--<li   styele="padding-left:60px;  text-align:center;" routerLinkActive="active" [routerLink]="['/first/item-b']"><i  class="iconfont iconlist" style="margin-right:14px"></i><span *ngIf="isDestroyed">Item-b</span></li>-->
+        <!--</ul>-->
+        <ul nz-menu [nzMode]="'inline'" style="height:100%">
+            <li nz-submenu>
+                <span title>知识图谱</span>
+                <ul>
+                    <li nz-menu-item routerLinkActive="ant-menu-item-selected" [routerLink]="['/kg/kg-search']">图谱搜索</li>
+                    <li nz-menu-item routerLinkActive="ant-menu-item-selected" [routerLink]="['/first/item-b']">first-item-B</li>
+                </ul>
+            </li>
+            <li nz-submenu>
+                <span title>Second-Item</span>
+                <ul>
+                    <li nz-menu-item routerLinkActive="ant-menu-item-selected" [routerLink]="['/second/item-a']">second-item-A</li>
+                    <li nz-menu-item routerLinkActive="ant-menu-item-selected" [routerLink]="['/second/item-b']">second-item-B</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <nz-content style=" min-height:calc(100vh - 59px); background:#fff; float:right; width:calc(100vw - 290px);padding:0px 31px;">
+        <router-outlet></router-outlet>
+    </nz-content>
+</div>

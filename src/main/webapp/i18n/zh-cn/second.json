@@ -1,0 +1,20 @@
+{
+    "demoApp": {
+        "second": {
+            "home": {
+                "title": "Seconds",
+                "createLabel": "创建新 Second",
+                "createOrEditLabel": "创建或编辑 Second"
+            },
+            "created": "Second {{ param }} 创建成功",
+            "updated": "Second {{ param }} 更新成功",
+            "deleted": "Second {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Second {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Second"
+            }
+        }
+    }
+}

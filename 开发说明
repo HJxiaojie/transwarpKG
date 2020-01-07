@@ -1,0 +1,7 @@
+前端代码在src/main/webapp/app中
+前端目前的实例有两个模块src/main/webapp/app/entities：First-item和Second-item，每个模块下都有各自的子模块。
+侧边栏在src/main/webapp/app/home/中修改。
+开发时若要添加新的模块只需要仿照src/main/webapp/app/entities/中两个模块构建并在entity.module.ts文件中引入新的模块名即可。
+demo中使用的NG-Zorro样式，对于特殊的样式，可以在总的样式文件中引入src/main/webapp/app/content/scss/vendor.scss 。
+demo中没有使用其他插件，对于特殊的插件，可以在总的模块引入文件中引入src/main/webapp/app/app.module.ts，同时为方便复用，可以将特殊模块在src/main/webapp/app/shared/shared.module.ts中引入 。
+根路由在src/main/webapp/app/home/home.route.ts中写好，新的模块可以依次继续写入，子模块可以在各自的父模块中的route.ts文件中写入。

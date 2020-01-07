@@ -1,0 +1,31 @@
+<div class="modal-body">
+    <h3>
+        图谱搜索
+    </h3>
+
+    <div style="position:relative; width: 50%; left: 25%; right: 25%">
+        <nz-input-group nzSearch nzSize="large" [nzSuffix]="suffixButton">
+            <input type="text" nz-input placeholder="请输入关键字" (keyup)="($event.which === 13)?kgSearch():0">
+        </nz-input-group>
+        <ng-template #suffixButton>
+            <button nz-button nzType="primary" nzSize="large" nzSearch
+                    style="background-color: #343a40;border-color: #343a40">搜索
+            </button>
+        </ng-template>
+    </div>
+
+    <div style="position:relative; width: 50%; left: 25%; right: 25%">
+        <nz-upload
+                nzType="drag"
+                [nzMultiple]="true"
+                [nzLimit]="5"
+                nzAction="api/kgSearch/uploadFile"
+                (nzChange)="handleChange($event)">
+            <p class="ant-upload-drag-icon">
+                <i nz-icon type="inbox"></i>
+            </p>
+            <p class="ant-upload-text">请拖拽文件至此上传</p>
+        </nz-upload>
+    </div>
+</div>
+

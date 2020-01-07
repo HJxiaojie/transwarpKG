@@ -1,0 +1,15 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/main/webapp/app/home/home.route.ts":
+/*!************************************************!*\
+  !*** ./src/main/webapp/app/home/home.route.ts ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar _1 = __webpack_require__(/*! ./ */ \"./src/main/webapp/app/home/index.ts\");\nvar core_1 = __webpack_require__(/*! app/core */ \"./src/main/webapp/app/core/index.ts\");\nvar first_1 = __webpack_require__(/*! app/entities/first */ \"./src/main/webapp/app/entities/first/index.ts\");\nvar second_1 = __webpack_require__(/*! app/entities/second */ \"./src/main/webapp/app/entities/second/index.ts\");\nvar HOME_ROUTES = [first_1.first, second_1.second];\nexports.HOME_ROUTE = {\n    path: '',\n    redirectTo: '../entities/first/first-item-a/first-item-a.component.html',\n    component: _1.HomeComponent,\n    data: {\n        authorities: ['ROLE_USER'],\n        pageTitle: 'global.homePageTitle'\n    },\n    children: HOME_ROUTES,\n    canActivate: [core_1.UserRouteAccessService]\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbWFpbi93ZWJhcHAvYXBwL2hvbWUvaG9tZS5yb3V0ZS50cz80NTc0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUEsOEVBQW1DO0FBQ25DLHdGQUFnRDtBQUNoRCw2R0FBeUM7QUFDekMsZ0hBQTJDO0FBRTNDLElBQU0sV0FBVyxHQUFHLENBQUMsYUFBSyxFQUFFLGVBQU0sQ0FBQyxDQUFDO0FBQ3ZCLGtCQUFVLEdBQVU7SUFDN0IsSUFBSSxFQUFFLEVBQUU7SUFDUixVQUFVLEVBQUMsNERBQTREO0lBQ3ZFLFNBQVMsRUFBRSxnQkFBYTtJQUN4QixJQUFJLEVBQUU7UUFDRixXQUFXLEVBQUUsQ0FBQyxXQUFXLENBQUM7UUFDMUIsU0FBUyxFQUFFLHNCQUFzQjtLQUNwQztJQUNELFFBQVEsRUFBRSxXQUFXO0lBQ3JCLFdBQVcsRUFBRSxDQUFDLDZCQUFzQixDQUFDO0NBQ3hDLENBQUMiLCJmaWxlIjoiLi9zcmMvbWFpbi93ZWJhcHAvYXBwL2hvbWUvaG9tZS5yb3V0ZS50cy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvdXRlIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcblxuaW1wb3J0IHsgSG9tZUNvbXBvbmVudCB9IGZyb20gJy4vJztcbmltcG9ydCB7VXNlclJvdXRlQWNjZXNzU2VydmljZX0gZnJvbSBcImFwcC9jb3JlXCI7XG5pbXBvcnQge2ZpcnN0fSBmcm9tIFwiYXBwL2VudGl0aWVzL2ZpcnN0XCI7XG5pbXBvcnQge3NlY29uZH0gZnJvbSBcImFwcC9lbnRpdGllcy9zZWNvbmRcIjtcblxuY29uc3QgSE9NRV9ST1VURVMgPSBbZmlyc3QsIHNlY29uZF07XG5leHBvcnQgY29uc3QgSE9NRV9ST1VURTogUm91dGUgPSB7XG4gICAgcGF0aDogJycsXG4gICAgcmVkaXJlY3RUbzonLi4vZW50aXRpZXMvZmlyc3QvZmlyc3QtaXRlbS1hL2ZpcnN0LWl0ZW0tYS5jb21wb25lbnQuaHRtbCcsXG4gICAgY29tcG9uZW50OiBIb21lQ29tcG9uZW50LFxuICAgIGRhdGE6IHtcbiAgICAgICAgYXV0aG9yaXRpZXM6IFsnUk9MRV9VU0VSJ10sXG4gICAgICAgIHBhZ2VUaXRsZTogJ2dsb2JhbC5ob21lUGFnZVRpdGxlJ1xuICAgIH0sXG4gICAgY2hpbGRyZW46IEhPTUVfUk9VVEVTLFxuICAgIGNhbkFjdGl2YXRlOiBbVXNlclJvdXRlQWNjZXNzU2VydmljZV1cbn07XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/main/webapp/app/home/home.route.ts\n");
+
+/***/ })
+
+})
